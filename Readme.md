@@ -28,7 +28,7 @@ For each microservice, follow these steps:
       npm install
 4. Build and run the Docker container:
       docker build -t microservice3
-      docker run -d -p 3002:3002 microservice3
+      docker run -d -p 3001:3001 microservice3
 5. Run the project:
       node index.js
 6. URL:
